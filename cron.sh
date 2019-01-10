@@ -8,6 +8,7 @@ export LANG="en_US.UTF-8"
 : ${to:=`whoami`}
 : ${fr:=`whoami`}
 
+ulimit -Sv 128000
 set -e
 
 PATH=/bin:/usr/bin
