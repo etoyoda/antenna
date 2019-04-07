@@ -1,6 +1,7 @@
 1,post-none.xsl,http://tameike.net/comments.htm
 4,post-table.xsl,http://www.wmo.int/pages/prog/www/WMOCodes/WMO306_vI2/LatestVERSION/LatestVERSION.html
-5,post-table.xsl,http://www.wmo.int/pages/prog/www/ois/Operational_Information/Newsletters/current_news_en.html
+:5,post-table.xsl,http://www.wmo.int/pages/prog/www/ois/Operational_Information/Newsletters/current_news_en.html
+5,html,http://www.wmo.int/pages/prog/www/ois/Operational_Information/Newsletters/current_news_en.html
 7,post-none.xsl,http://xml.kishou.go.jp/index.html
 10,html,http://www.jma-net.go.jp/msc/en/
 11,html,http://www.geocities.jp/andosprocinfo/
