@@ -16,7 +16,13 @@ cd `dirname $0`
 
 diffhtml() {
   if [ -f "$postxsl" ]; then
-    wget -q -Oz$id.tmp "$url" || return
+    if ! wget -q -Oz$id.tmp "$url"
+    then
+      rc=$?
+      logger -s -t antenna "wget $id rc=$rc"
+      :
+      return
+    fi
     enc=`nkf -g z$id.tmp`
     : ${enc:=UTF-8}
     if ! xsltproc --stringparam base "$url" --encoding $enc --html $postxsl z$id.tmp > z$id.raw 2> z$id.log ; then
@@ -28,7 +34,13 @@ diffhtml() {
     w3m -T text/html -dump z$id.raw > z$id.new
     test -s z$id.new || return
   else
-    w3m -no-cookie -dump "$url" > z$id.new || return
+    if ! w3m -no-cookie -dump "$url" > z$id.new
+    then
+      rc=$?
+      logger -s -t antenna "w3m $id rc=$rc"
+      :
+      return
+    fi
   fi
   if ! test -s z$id.new ; then
     logger -t antenna "empty source $id - skip this time"
