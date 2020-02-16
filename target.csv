@@ -8,7 +8,7 @@
 :14,html,http://weather.noaa.gov/pub/data/raw/no/noxx02.lssw..txt
 :15,html,http://weather.noaa.gov/pub/data/raw/no/nojp01.rjtd..txt
 18,post-none.xsl,http://warp.da.ndl.go.jp/waid/3566
-20,html,http://www.nws.noaa.gov/datamgmt/notices.shtml
+:20,html,http://www.nws.noaa.gov/datamgmt/notices.shtml
 2,post-none.xsl,http://www.jma.go.jp/jma/kishou/books/sokkou/sokkou.html
 3,post-none.xsl,http://www.jma.go.jp/jma/kishou/books/sokkou-kaiyou/sokkou-kaiyou.html
 22,post-none.xsl,http://www.jma.go.jp/jma/kishou/books/yohkens/yohkens.html
