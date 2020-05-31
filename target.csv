@@ -23,7 +23,7 @@
 33,html,http://www.wmo.int/pages/prog/www/wigos/Newsletters.html
 34,post-nws.xsl,http://www.weather.gov/notification/
 0,post-table.xsl,http://w-shinkou.org/shinchaku-kaiin.html
-6,post-table.xsl,https://honkawa2.sakura.ne.jp/index.html
+:6,post-table.xsl,https://honkawa2.sakura.ne.jp/index.html
 9,post-table.xsl,http://www.jmbsc.or.jp/jp/
 16,post-table.xsl,http://www.data.jma.go.jp/add/suishin/cgi-bin/jyouhou/jyouhou.cgi
 17,post-table.xsl,http://www.data.jma.go.jp/add/suishin/cgi-bin/oshirase/oshirase.cgi
