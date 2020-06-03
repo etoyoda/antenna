@@ -21,6 +21,9 @@
   </head>
 </xsl:template>
 
+<xsl:template match="div[@style='opacity: 0;' and @class='sub']">
+</xsl:template>
+
 <xsl:template match="a[@href]">
   <xsl:element name="{name(.)}">
   <xsl:apply-templates select="*|@*|text()"/>
