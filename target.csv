@@ -28,7 +28,7 @@
 16,post-table.xsl,http://www.data.jma.go.jp/add/suishin/cgi-bin/jyouhou/jyouhou.cgi
 17,post-table.xsl,http://www.data.jma.go.jp/add/suishin/cgi-bin/oshirase/oshirase.cgi
 21,post-table.xsl,http://www.nws.noaa.gov/om/notif.htm
-26,post-table.xsl,http://www.wmo.int/pages/prog/www/BAS/CBS-meetings.html
+:26,post-table.xsl,http://www.wmo.int/pages/prog/www/BAS/CBS-meetings.html
 :28,post-table.xsl,https://erecruit.wmo.int/public/
 35,post-none.xsl,http://www.bousai.go.jp/fusuigai/suigai_dosyaworking/index.html
 36,post-none.xsl,http://www.jma.go.jp/jma/kishou/tyoukan/index.html
