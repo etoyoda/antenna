@@ -19,7 +19,7 @@
 29,html,http://www.jma.go.jp/jma/index.html
 30,html,http://www.jma.go.jp/jma/kishou/books/index.html
 31,post-none.xsl,http://www.jma.go.jp/jma/kishou/books/kisetutext/kisetutext.html
-32,html,http://www.data.jma.go.jp/hp_notice/message.json
+32,html,http://www.data.jma.go.jp/hp_message/message.json
 33,html,http://www.wmo.int/pages/prog/www/wigos/Newsletters.html
 34,post-nws.xsl,http://www.weather.gov/notification/
 0,post-table.xsl,http://w-shinkou.org/shinchaku-kaiin.html
