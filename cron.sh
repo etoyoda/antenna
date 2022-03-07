@@ -90,8 +90,6 @@ To: ${to}
 Subject: ${tl} #${1}:
 Content-Type: text/plain; charset=UTF-8
 
-=== ${3} ===
-
 HEADER
       cat zmail.in zmail | /usr/lib/sendmail -t
     fi
