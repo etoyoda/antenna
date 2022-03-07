@@ -4,7 +4,7 @@ export LANG="en_US.UTF-8"
 
 : ${db:=antennadb.zip}
 : ${tf:=target.csv}
-: ${tl:="web monitor report"}
+: ${tl:="webmon"}
 : ${to:=`whoami`}
 : ${fr:=`whoami`}
 
@@ -87,8 +87,10 @@ dispatch() {
       cat > zmail.in <<HEADER
 From: ${fr}
 To: ${to}
-Subject: ${tl} #$1
+Subject: ${tl} #${1}:
 Content-Type: text/plain; charset=UTF-8
+
+=== ${3} ===
 
 HEADER
       cat zmail.in zmail | /usr/lib/sendmail -t
