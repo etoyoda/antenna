@@ -4,6 +4,7 @@
 111,post-table.xsl,http://www.data.jma.go.jp/add/suishin/cgi-bin/oshirase/oshirase.cgi
 120,post-none.xsl,http://xml.kishou.go.jp/index.html
 130,html,https://www.data.jma.go.jp/mscweb/en/index.html
+140,html,https://www.jma-net.go.jp/choutatsu/data/R04/04%20seifuchoutatsu/04%20rakusatu/rakusatusya.htm
 200,post-none.xsl,http://warp.da.ndl.go.jp/waid/3566
 203,post-none.xsl,http://www.jma.go.jp/jma/kishou/books/sokkou/sokkou.html
 204,post-none.xsl,http://www.jma.go.jp/jma/kishou/books/sokkou-kaiyou/sokkou-kaiyou.html
