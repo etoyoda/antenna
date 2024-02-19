@@ -16,7 +16,7 @@ cd `dirname $0`
 
 diffhtml() {
   if [ -f "$postxsl" ]; then
-    if wget -q -Oz$id.tmp "$url"
+    if wget --no-check-certificate -q -Oz$id.tmp "$url"
     then
       :
     else
