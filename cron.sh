@@ -16,8 +16,10 @@ cd `dirname $0`
 
 diffhtml() {
   if [ -f "$postxsl" ]; then
-    if ! wget -q -Oz$id.tmp "$url"
+    if wget -q -Oz$id.tmp "$url"
     then
+      :
+    else
       rc=$?
       logger -s -t antenna "wget $id rc=$rc"
       :
@@ -25,7 +27,9 @@ diffhtml() {
     fi
     enc=`nkf -g z$id.tmp`
     : ${enc:=UTF-8}
-    if ! xsltproc --stringparam base "$url" --encoding $enc --html $postxsl z$id.tmp > z$id.raw 2> z$id.log ; then
+    if xsltproc --stringparam base "$url" --encoding $enc --html $postxsl z$id.tmp > z$id.raw 2> z$id.log ; then
+      :
+    else
       rc=$?
       logger -s -t antenna "filter $postxsl exit $rc source $id - skip this time"
       cat z$id.log >&2
